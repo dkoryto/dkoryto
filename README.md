@@ -1,6 +1,5 @@
-### Hi there 👋
 <h1 align="center">Siema 👋, jestem Dariusz Koryto</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center"></h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dkoryto&label=Profile%20views&color=0e75b6&style=flat" alt="dkoryto" /> </p>
 
