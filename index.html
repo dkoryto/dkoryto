@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog technologiczny o programowaniu, narzędziach i najnowszych technologiach. Porady, tutoriale i artykuły dla programistów.">
+    <meta name="keywords" content="programowanie, technologia, blog technologiczny, narzędzia programistyczne, tutoriale">
+    <meta name="author" content="Dariusz Koryto">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Dariusz Koryto - strona domowa">
+    <meta property="og:description" content="Dariusz Koryto - strona domowa">
+    <meta property="og:url" content="https://koryto.eu">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://koryto.eu">
+    <title>Dariusz Koryto - strona domowa</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav" aria-label="Menu główne">
+            <div class="logo" aria-label="Logo strony">Dariusz Koryto</div>
+            <button class="menu-toggle" aria-label="Przełącz menu mobilne" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul>
+                <li><a href="#home" aria-label="Strona główna">Home</a></li>
+                <li><a href="#about" aria-label="O mnie">O mnie</a></li>
+                <li><a href="#blog" aria-label="Blog">Blog</a></li>
+                <li><a href="#tools" aria-label="Narzędzia">Narzędzia</a></li>
+                <li><a href="#programs" aria-label="Programy">Programy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero fade-in">
+            <h1>Strona dmowa /blog technologiczny</h1>
+            <p>Miejsce, gdzie dzielę się wiedzą i doświadczeniem z zakresu programowania i najnowszych technologii</p>
+        </section>
+
+        <section id="about" class="fade-in">
+            <h2>O mnie</h2>
+            <p>Jestem doświadczonym administratorem z pasją do dzielenia się wiedzą.</p>
+        </section>
+
+        <section id="blog" class="fade-in">
+            <h2>Najnowsze Artykuły</h2>
+            <div class="blog-grid">
+                <article class="blog-card" itemscope itemtype="http://schema.org/BlogPosting">
+                    <meta itemprop="datePublished" content="2024-03-12">
+                    <meta itemprop="author" content="Jan Kowalski">
+                    <img src="/images/coding.jpg" alt="Programowanie dla początkujących" itemprop="image">
+                    <div class="blog-content">
+                        <h3 itemprop="headline">Jak zacząć programować w 2024 roku</h3>
+                        <p class="meta">12 marca 2024 | Jan Kowalski</p>
+                        <p itemprop="description">Kompletny przewodnik dla początkujących programistów, którzy chcą rozpocząć swoją przygodę z kodowaniem.</p>
+                        <a href="/blog/jak-zaczac-programowac-2024" class="read-more" itemprop="url">Czytaj więcej</a>
+                    </div>
+                </article>
+                <article class="blog-card" itemscope itemtype="http://schema.org/BlogPosting">
+                    <meta itemprop="datePublished" content="2024-03-10">
+                    <meta itemprop="author" content="Anna Nowak">
+                    <img src="/images/tools.jpg" alt="Najlepsze narzędzia programistyczne" itemprop="image">
+                    <div class="blog-content">
+                        <h3 itemprop="headline">Najlepsze narzędzia programistyczne 2024</h3>
+                        <p class="meta">10 marca 2024 | Anna Nowak</p>
+                        <p itemprop="description">Przegląd najpopularniejszych i najbardziej efektywnych narzędzi dla programistów w 2024 roku.</p>
+                        <a href="/blog/najlepsze-narzedzia-programistyczne-2024" class="read-more" itemprop="url">Czytaj więcej</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="tools" class="fade-in">
+            <h2>Narzędzia Programistyczne (lore ipsum)</h2>
+            <div class="tools-grid">
+                <div class="tool-card" itemscope itemtype="http://schema.org/SoftwareApplication">
+                    <h3 itemprop="name">Visual Studio Code</h3>
+                    <p itemprop="description">Popularny edytor kodu z bogatym ekosystemem rozszerzeń</p>
+                </div>
+                <div class="tool-card" itemscope itemtype="http://schema.org/SoftwareApplication">
+                    <h3 itemprop="name">Git</h3>
+                    <p itemprop="description">Profesjonalny system kontroli wersji</p>
+                </div>
+                <div class="tool-card" itemscope itemtype="http://schema.org/SoftwareApplication">
+                    <h3 itemprop="name">Docker</h3>
+                    <p itemprop="description">Narzędzie do konteneryzacji aplikacji</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="programs" class="fade-in">
+            <h2>Programy i Aplikacje (lore ipsum)</h2>
+            <div class="programs-grid">
+                <div class="program-card" itemscope itemtype="http://schema.org/SoftwareApplication">
+                    <h3 itemprop="name">Program 1</h3>
+                    <p itemprop="description">Opis programu 1</p>
+                </div>
+                <div class="program-card" itemscope itemtype="http://schema.org/SoftwareApplication">
+                    <h3 itemprop="name">Program 2</h3>
+                    <p itemprop="description">Opis programu 2</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Przełącz motyw strony">🌓</button>
+
+    <footer>
+        <p>&copy; 2025 koryto.eu Prawie wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Blog Technologiczny",
+        "description": "Blog technologiczny o pomysłach, narzędziach i najnowszych technologiach",
+        "url": "https://koryto.eu",
+        "author": {
+            "@type": "Person",
+            "name": "Dariusz Koryto"
+        }
+    }
+    </script>
+</body>
+</html> 
